@@ -1,0 +1,27 @@
+# Core
+torch>=2.0.0
+torchvision
+torchaudio
+
+# NLP & Transformers
+transformers>=4.30.0
+datasets>=2.10.0
+flair>=0.12.0
+
+# Data processing
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+
+# Text processing
+nltk
+spacy
+beautifulsoup4
+lxml
+
+# Others
+jupyter
+notebook
