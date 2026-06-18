@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch & ML Models
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoints/
+saved_models/
+wandb/
+runs/
+lightning_logs/
+
+# Datasets & Large Files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.arrow
+cached_*
+huggingface/
+datasets/
+data/
+
+# Logs
+*.log
+*.out
+logs/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary / Output
+temp/
+tmp/
+outputs/
+results/
+
+# Flair & Transformers cache
+.flair/
+transformers_cache/
